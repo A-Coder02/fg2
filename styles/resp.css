@@ -1,0 +1,70 @@
+@media only screen and (max-width: 600px) {
+ header.header-wrapper {
+    flex-wrap: nowrap;
+}
+section.hero-section > h1 {
+    font-size: 3.0rem;
+    margin-bottom: 1rem;
+    color: #b5b5b5;
+    transform: scale(0.5);
+	white-space:nowrap;
+}
+li.nav-wrapper-list-item {
+    font-size: 0.8rem;
+}
+section.hero-section > * {
+    padding: 0;
+}
+
+header.header-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+article.mcard {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+form.hero-form {
+    display: flex;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 0;
+    flex-wrap: wrap;
+}
+form.hero-form > *{
+	flex:1 1 100%;
+}
+button#searchHero {
+    box-sizing: content-box;
+    padding: 1rem;
+}
+input#searchBar {
+    background: black;
+    color: white;
+    border: none;
+    width: 100%;
+}
+video.card-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    z-index: 0;
+    box-shadow: 0 0 6px #b8b5b5;
+    cursor: pointer;
+}
+.card-video-wrapper {
+    position: relative;
+    overflow: hidden;
+    flex: 0 1 100%;
+}
+}
